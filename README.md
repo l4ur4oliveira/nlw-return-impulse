@@ -7,13 +7,17 @@ Projeto desenvolvido durante a trilha **[Impulse](https://efficient-sloth-d85.no
 Iniciando server:
 
 - Instalar dependências com `npm install`
+- Web: `npm run dev`
 
 ## Tools
 
+**Geral**
 - Visual Studio Code
 - Google Chrome
+- Typescript
+
+**Web**
 - Vite
 - React
-- Typescript
 - Tailwind CSS
 - Headless UI (accessibility)
