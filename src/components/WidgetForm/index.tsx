@@ -3,6 +3,7 @@ import { useState } from "react";
 import bugImageUrl from '../../assets/bug.svg'
 import ideaImageUrl from '../../assets/idea.svg'
 import thoughtImageUrl from '../../assets/thought.svg'
+import { FeedbackContent } from "./Steps/FeedbackContent";
 import { FeedbackType } from "./Steps/FeedbackType";
 
 export const feedbackTypes = {
@@ -34,13 +35,20 @@ export type FeedbackTypes = keyof typeof feedbackTypes;
 export function WidgetForm() {
   const [feedbackType, setFeedbackType] = useState<FeedbackTypes | null>(null)
 
+  function handleRestartFeedback() {
+    setFeedbackType(null);
+  }
+
   return (
     <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
 
       {!feedbackType ? (
         <FeedbackType onFeedbackTypeChanged={setFeedbackType} />
       ) : (
-        <p>Hello World</p>
+        <FeedbackContent
+          feedbackType={feedbackType}
+          onFeedbackRestart={handleRestartFeedback}
+        />
       )}
 
       <footer className="text-xs text-neutral-400">
