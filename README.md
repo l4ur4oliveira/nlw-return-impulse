@@ -30,3 +30,25 @@ Iniciando server:
 - SQLite
 - Jest
 - Mailtrap
+
+## Deploy
+
+**Web**
+
+O projeto pode ser acessado pelo link [da Vercel](https://nlw-return-impulse-murex.vercel.app/)
+
+**API**
+
+API disponível pelo link [do Railway](https://nlw-return-impulse-production-ed3e.up.railway.app/)
+
+## Endpoint
+
+- POST /feedbacks
+```
+BODY:
+{
+  "type": "string",
+  "comment": "string",
+  "screenshot": "string - base64 image" (opcional)
+}
+```
