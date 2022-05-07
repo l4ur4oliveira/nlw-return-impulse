@@ -7,7 +7,7 @@ Projeto desenvolvido durante a trilha **[Impulse](https://efficient-sloth-d85.no
 Iniciando server:
 
 - Instalar dependências com `npm install`
-- Web: `npm run dev`
+- Web/Server: `npm run dev`
 
 ## Tools
 
@@ -21,3 +21,12 @@ Iniciando server:
 - React
 - Tailwind CSS
 - Headless UI (accessibility)
+- Axios
+
+**Server**
+- Node.js
+- Express
+- Prisma
+- SQLite
+- Jest
+- Mailtrap
