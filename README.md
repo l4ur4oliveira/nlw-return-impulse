@@ -31,6 +31,10 @@ Iniciando server:
 - Jest
 - Mailtrap
 
+**Mobile**
+- React Native
+- Expo
+
 ## Deploy
 
 **Web**
