@@ -43,7 +43,7 @@ O projeto pode ser acessado pelo link [da Vercel](https://nlw-return-impulse-mur
 
 **API**
 
-API disponível pelo link [do Railway](https://nlw-return-impulse-production-ed3e.up.railway.app/)
+API disponível pelo link [do Railway](https://nlw-return-impulse-production.up.railway.app/)
 
 ## Endpoint
 
